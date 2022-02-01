@@ -20,8 +20,8 @@ int main (void)
 	printf("you typed : \n");
 	printf("%s\r\n",str1);
 	printf("........the inversion..............\n");
-	int len=strlen(str1);
-	//printf("%d\n",len);
+	int len=strlen(str1); // getting string length was done in perivious example !!
+	printf("%d\n",len);
     char str2[len];
 
 	for (int i = 0 ; i<len ; i++ )
